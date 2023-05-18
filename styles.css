@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    background-color: #749F82;
+    position: relative;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 0;
+}
+
+.company-logo {
+    position: relative;
+    width: 90%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.computer {
+    position: relative;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.profile {
+    background-image: url("images/background image.png");
+    margin: auto;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    text-align: left;
+}
+
+.profile-picture {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}         
+
+.profile-heading {
+    padding-top: 3%;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #245953;
+}
+
+.profile-text {
+    color: #245953;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left;
+    width: 98%;
+}
+
+.device-responsive {
+    text-decoration: underline;
+}
+
+.skills {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: #749F82;
+    color: white;
+} 
+
+.skills-heading {
+    text-decoration: underline;
+    text-shadow: 3px 3px 6px black;
+    color: white;
+    font-size: 6rem;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+.row {
+    background-color: #749F82;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+.column-4 {
+    float: left;
+    margin: auto;
+    width: 25%;
+}
+
+.photography {
+    padding-top: 3%;
+    padding-bottom: 10%;
+    background-color: #749F82;
+    color: white;
+}
+
+.photography-logo {
+    float: left;
+    margin-left: 2%;
+    width: 25%;
+}
+
+.photography-heading {
+    font-size: 4rem;
+    padding-bottom: 2%;
+    text-align: left;
+    text-shadow: 3px 3px 6px black;
+}
+
+.photography-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left;
+    width: 98%;
+}
+
+.contact-me { 
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-image: url("images/background image.png");
+} 
+
+.contact-me-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #245953;
+    text-decoration: underline;
+    text-shadow: 5px 5px 7px #666666;
+    padding-bottom: 2%;
+    font-size: 6rem;
+    font-weight: 900;
+}
+    
+.contact-me-name {
+    color: #245953;
+    font-size: 2.5rem;
+}
+
+.contact-me-text {
+    color: #245953;
+    font-size: 2.2rem;
+}
+
+.btn {
+    background: #245953;
+    background-image: -webkit-linear-gradient(top, #245953, #D8D8D8);
+    background-image: -moz-linear-gradient(top, #245953, #D8D8D8);
+    background-image: -ms-linear-gradient(top, #245953, #D8D8D8);
+    background-image: -o-linear-gradient(top, #245953, #D8D8D8);
+    background-image: linear-gradient(to bottom, #245953, #D8D8D8);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    text-shadow: 1px 1px 3px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 0px 16px #245953;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    border: solid #D8D8D8 2px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #D8D8D8;
+    background-image: -webkit-linear-gradient(top, #D8D8D8, #245953);
+    background-image: -moz-linear-gradient(top, #D8D8D8, #245953);
+    background-image: -ms-linear-gradient(top, #D8D8D8, #245953);
+    background-image: -o-linear-gradient(top, #D8D8D8, #245953);
+    background-image: linear-gradient(to bottom, #D8D8D8, #245953);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #749F82;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0.1%;
+    padding-top: 1%;
+}
+
+.copyright {
+    margin: auto;
+    color: white;
+    padding-top: 0;
+} 
+
+
+
+
+
+@media (max-width: 1080px) {
+
+    .company-logo {
+        width: 90%;
+    }
+
+    .computer {
+        width: 100%;
+    }
+
+    .profile {
+        padding-left: 2%;
+    }
+
+    .profile-picture {
+        float: right;
+        padding: 0;
+        width: 45%;
+    }
+
+    .profile-heading {
+        font-size: 5rem;
+    }
+
+    .profile-text {
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1.5;
+        margin-left: 0;
+        padding-bottom: 1%;
+        width: 99%;
+    }
+
+    .skills {
+        padding-bottom: 4%;
+    }
+
+    .skills-heading {
+        font-size: 6rem;
+    }
+
+    .row {
+        padding-bottom: 10%;
+    }
+
+    .photography {
+        padding-bottom: 4%;
+    }
+
+    .photography-logo {
+        float: right;
+        width: 40%;
+    }
+
+    .photography-heading {
+        font-size: 4.5rem;
+        margin-left: 1%;
+    }
+
+    .photography-text {
+        font-size: 3rem;
+        line-height: 1.5;
+        margin-left: 1%;
+    }
+
+    .contact-me-heading {
+        font-size: 6rem;
+    }
+
+    .contact-me-name {
+        font-size: 3.5rem;
+    }
+
+    .contact-me-text {
+        font-size: 3.5rem;
+    }
+
+    .copyright {
+        font-size: 2rem;
+    }
+}
