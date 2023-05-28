@@ -126,7 +126,7 @@ body {
 }
 
 .projects {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     padding-left: 8%;
     background-color: #749F82;
 }
@@ -159,6 +159,28 @@ body {
     font-weight: bold;
     margin-left:2%;
     margin-top: 0.5%;  
+}
+
+.row {
+    padding-left: 9%;
+}
+
+.column-2 {
+    float: left;
+    width: 20%;
+}
+
+.projects-photo {
+    box-shadow: 5px 5px 12px black;
+    margin-right: 2%;
+}
+
+.h2-projects {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3%;
+    text-align: center;
 }
 
 .contact-me {
@@ -280,7 +302,17 @@ body {
     }
 
     .row {
-        padding-bottom: 10%;
+        padding: 0;
+        padding-bottom: 4%;
+    }
+
+    .column-2 {
+        width: 45%;
+        margin: auto;
+    }
+
+    .h2-projects {
+        font-size: 4rem;
     }
 
     .photography {
