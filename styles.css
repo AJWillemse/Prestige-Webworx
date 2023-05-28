@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -74,6 +73,7 @@ body {
     font-weight: 900;
     margin-top: 1%;
     padding-bottom: 3%;
+    text-align: center;
 }
 
 .row {
@@ -90,7 +90,7 @@ body {
 
 .photography {
     padding-top: 3%;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
     background-color: #749F82;
     color: white;
 }
@@ -115,9 +115,46 @@ body {
     width: 98%;
 }
 
+.projects {
+    padding-top: 3%;
+    padding-bottom: 8%;
+    background-color: #749F82;
+}
+
+.projects-logo {
+    float: right;
+    margin-right: 2%;
+    width: 35%;
+}
+
+.projects-heading{
+    color: white;
+    font-size: 4rem;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+}
+
+.projects-link {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2;
+    margin-left: 2%;
+    text-align: left;
+}
+
+.projects-text {
+    color: #245953;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 2%;
+    text-align: left;
+}
+
 .contact-me { 
     padding-top: 4%;
     padding-bottom: 4%;
+    text-align: center;
     background-image: url("images/background image.png");
 } 
 
@@ -140,6 +177,7 @@ body {
     color: #245953;
     font-size: 2.2rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .btn {
@@ -175,18 +213,13 @@ body {
 }
 
 .bottom-container {
-    background-color: #749F82;
+    background-image: linear-gradient(#749F82, #D8D8D8, #749F82);
     color: white;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.1%;
     padding-top: 1%;
+    text-align: center;
 }
-
-.copyright {
-    margin: auto;
-    color: white;
-    padding-top: 0;
-} 
 
 
 
@@ -258,6 +291,27 @@ body {
         font-size: 3rem;
         line-height: 1.5;
         margin-left: 1%;
+    }
+
+    .projects-logo {
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .projects-heading {
+        font-size: 5rem;
+        margin-left: 1%;
+    }
+
+    .projects-link {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .projects-text {
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 0;
     }
 
     .contact-me-heading {
