@@ -54,7 +54,7 @@ body {
     line-height: 1.5;
     text-align: left;
     margin-left: 3%;
-    width: 98%;
+    width: 90%;
 }
 
 .device-responsive {
@@ -101,6 +101,7 @@ body {
 .photography-logo {
     float: left;
     margin-left: 2%;
+    margin-right: 3%;
     width: 25%;
 }
 
@@ -121,18 +122,18 @@ body {
     font-weight: bold;
     line-height: 2;
     text-align: left;
-    width: 98%;
+    width: 90%;
 }
 
 .projects {
     padding-bottom: 5%;
-    padding-left: 1%;
+    padding-left: 8%;
     background-color: #749F82;
 }
 
 .projects-logo {
     float: right;
-    margin-right: 3%;
+    margin-right: 5%;
     margin-top: 3%;
     width: 30%;
 }
@@ -253,11 +254,11 @@ body {
 
     .profile-picture {
         float: right;
-        padding: 0;
         width: 45%;
     }
 
     .profile-heading {
+        margin-left: 0;
         font-size: 5rem;
     }
 
@@ -289,6 +290,7 @@ body {
 
     .photography-logo {
         float: right;
+        margin-right: 0;
         width: 40%;
     }
 
@@ -305,25 +307,28 @@ body {
         font-size: 3rem;
     }
 
+    .projects {
+        padding-left: 1%;
+    }
+
     .projects-logo {
-        margin-right: 0;
-        width: 50%;
+        display: none;
     }
 
     .projects-heading {
         font-size: 5rem;
+        margin-left: 0;
     }
 
     .projects-link {
         font-size: 3rem;
-        line-height: 1.5;
+        margin-left: 0;
     }
 
     .projects-text {
-        font-size: 2rem;
-        font-weight: bold;
+        font-size: 2.5rem;
         line-height: 1;
-        margin-bottom: 0;
+        margin-left: 0;
     }
 
     .contact-me-heading {
