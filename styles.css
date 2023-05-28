@@ -107,6 +107,12 @@ body {
     text-align: left;
 }
 
+.photography-link {
+    color: #16FF00;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
 .photography-text {
     font-size: 1.8rem;
     font-weight: bold;
@@ -123,7 +129,7 @@ body {
 
 .projects-logo {
     float: right;
-    margin-right: 2%;
+    margin-top: 7%;
     width: 35%;
 }
 
@@ -131,16 +137,16 @@ body {
     color: white;
     font-size: 4rem;
     margin-left: 2%;
-    padding-bottom: 2%;
+    margin-top: 10%;
+    padding-bottom: 1%;
     text-align: left;
 }
 
 .projects-link {
+    color: #16FF00;
     font-size: 1.8rem;
     font-weight: bold;
-    line-height: 2;
     margin-left: 2%;
-    text-align: left;
 }
 
 .projects-text {
@@ -293,6 +299,10 @@ body {
         margin-left: 1%;
     }
 
+    .photography-link {
+        font-size: 3rem;
+    }
+
     .projects-logo {
         margin-right: 0;
         width: 50%;
@@ -310,6 +320,7 @@ body {
 
     .projects-text {
         font-size: 2rem;
+        font-weight: bold;
         line-height: 1;
         margin-bottom: 0;
     }
