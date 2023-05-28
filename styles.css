@@ -223,7 +223,7 @@ body {
 }
 
 .bottom-container {
-    background-image: linear-gradient(#749F82, #D8D8D8, #749F82);
+    background-image: linear-gradient(#749F82, white, #749F82);
     color: white;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.1%;
