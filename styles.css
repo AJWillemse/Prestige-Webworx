@@ -161,7 +161,7 @@ body {
     margin-top: 0.5%;  
 }
 
-.contact-me { 
+.contact-me {
     padding-top: 4%;
     padding-bottom: 4%;
     text-align: center;
@@ -308,7 +308,8 @@ body {
     }
 
     .projects {
-        padding-left: 1%;
+        padding-right: 1%;
+        text-align: right;
     }
 
     .projects-logo {
