@@ -51,7 +51,7 @@ body {
     color: #245953;
     font-size: 1.8rem;
     font-weight: bold;
-    line-height: 2;
+    line-height: 1.5;
     text-align: left;
     width: 98%;
 }
@@ -72,6 +72,7 @@ body {
     color: white;
     font-size: 6rem;
     font-weight: 900;
+    margin-top: 1%;
     padding-bottom: 3%;
 }
 
