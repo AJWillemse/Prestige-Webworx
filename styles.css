@@ -238,6 +238,7 @@ body {
     background-image: linear-gradient(#749F82, white, #749F82);
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
     padding-bottom: 0.1%;
     padding-top: 1%;
     text-align: center;
@@ -358,6 +359,11 @@ body {
 
     .contact-me-text {
         font-size: 3.5rem;
+    }
+
+    .btn {
+        width: 25%;
+        font-size: 2rem;
     }
 
     .copyright {
