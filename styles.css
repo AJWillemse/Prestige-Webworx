@@ -112,7 +112,7 @@ body {
 }
 
 .photography-link {
-    color: #16FF00;
+    color: #27374D;
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -158,13 +158,6 @@ body {
     background-color: #749F82;
 }
 
-.projects-logo {
-    float: right;
-    margin-right: 5%;
-    margin-top: 3%;
-    width: 30%;
-}
-
 .projects-heading{
     color: white;
     font-size: 4rem;
@@ -174,18 +167,10 @@ body {
 }
 
 .projects-link {
-    color: #16FF00;
+    color: #27374D;
     font-size: 2.5rem;
     font-weight: bold;
     margin-left: 2%;
-}
-
-.projects-text {
-    color: #245953;
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-left:2%;
-    margin-top: 0.5%;  
 }
 
 .contact-me {
@@ -338,11 +323,6 @@ body {
         padding-bottom: 5%;
     }
 
-    .projects-logo {
-        display: none;
-        margin: auto;
-    }
-
     .projects-heading {
         font-size: 6rem;
         margin: auto;
@@ -351,12 +331,6 @@ body {
 
     .projects-link {
         font-size: 3rem;
-        margin: auto;
-    }
-
-    .projects-text {
-        font-size: 2.5rem;
-        line-height: 1;
         margin: auto;
     }
 
