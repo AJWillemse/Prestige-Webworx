@@ -125,6 +125,33 @@ body {
     width: 90%;
 }
 
+.row {
+    padding-bottom: 4%;
+}
+
+.card {
+    float: left;
+    box-shadow: 5px 5px 12px black;
+    margin-left: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 20%;
+}
+
+.card-image {
+    background-color: #749F82;
+}
+
+.card-body {
+    background-image: linear-gradient(#9DB2BF, #27374D);
+}
+
+.card-title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .projects {
     padding-bottom: 3%;
     padding-left: 8%;
@@ -148,7 +175,7 @@ body {
 
 .projects-link {
     color: #16FF00;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-left: 2%;
 }
@@ -159,28 +186,6 @@ body {
     font-weight: bold;
     margin-left:2%;
     margin-top: 0.5%;  
-}
-
-.row {
-    padding-left: 9%;
-}
-
-.column-2 {
-    float: left;
-    width: 20%;
-}
-
-.projects-photo {
-    box-shadow: 5px 5px 12px black;
-    margin-right: 2%;
-}
-
-.h2-projects {
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 3%;
-    text-align: center;
 }
 
 .contact-me {
@@ -301,20 +306,6 @@ body {
         font-size: 6rem;
     }
 
-    .row {
-        padding: 0;
-        padding-bottom: 4%;
-    }
-
-    .column-2 {
-        width: 45%;
-        margin: auto;
-    }
-
-    .h2-projects {
-        font-size: 2rem;
-    }
-
     .photography {
         padding-bottom: 4%;
         padding-left: 1%;
@@ -366,6 +357,19 @@ body {
         font-size: 2.5rem;
         line-height: 1;
         margin: auto;
+    }
+
+    .row {
+        padding-bottom: 8%;
+    }
+
+    .card {
+        margin-left: 1.5%;
+        width: 31%;
+    }
+
+    .card-title {
+        font-size: 3rem;
     }
 
     .contact-me-heading {
