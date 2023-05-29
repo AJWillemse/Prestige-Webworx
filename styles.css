@@ -307,7 +307,7 @@ body {
     }
 
     .photography {
-        padding-bottom: 4%;
+        padding-bottom: 1%;
         padding-left: 1%;
     }
 
@@ -334,6 +334,7 @@ body {
         text-align: center;
         margin: auto;
         padding: 0;
+        padding-top: 0;
         padding-bottom: 5%;
     }
 
@@ -361,6 +362,7 @@ body {
 
     .row {
         padding-bottom: 8%;
+        padding-top: 0;
     }
 
     .card {
