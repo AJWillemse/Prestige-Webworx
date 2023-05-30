@@ -76,7 +76,7 @@ body {
     margin-top: 1%;
     padding-bottom: 3%;
     text-align: center;
-    text-shadow: 5px 5px 5px #394867;
+    text-shadow: 6px 6px 5px #394867;
 }
 
 .row {
@@ -110,14 +110,14 @@ body {
     font-size: 4rem;
     padding-bottom: 2%;
     text-align: left;
-    text-shadow: 5px 5px 5px #394867;
+    text-shadow: 6px 6px 5px #394867;
 }
 
 .photography-link {
     color: #394867;
     font-size: 1.8rem;
     font-weight: bold;
-    text-shadow: 0px 0px 5px white;
+    text-shadow: 0px 0px 6px white;
 }
 
 .photography-text {
@@ -150,9 +150,10 @@ body {
 }
 
 .card-title {
-    color: white;
+    color: #394867;
     font-size: 3rem;
     text-align: center;
+    text-shadow: 0px 0px 5px white;
 }
 
 .projects {
@@ -167,7 +168,7 @@ body {
     padding-top: 5%;
     padding-bottom: 2%;
     margin-left: 2%;
-    text-shadow: 5px 5px 5px #394867;
+    text-shadow: 6px 6px 5px #394867;
 }
 
 .projects-link {
@@ -175,7 +176,7 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     margin-left: 2%;
-    text-shadow: 0px 0px 5px white;
+    text-shadow: 0px 0px 6px white;
 }
 
 .contact-me {
