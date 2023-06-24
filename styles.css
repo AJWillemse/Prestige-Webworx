@@ -31,8 +31,8 @@ body {
 }
 
 .profile {
-    backdrop-filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     box-shadow: 0px 0px 20px black;
     margin: auto;
@@ -78,7 +78,7 @@ span {
     box-shadow: 0px 0px 20px black;
     margin: auto;
     margin-top: 8%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     padding-top: 3%;
     position: relative;
     width: 90%;
@@ -112,7 +112,7 @@ h1 {
 }
 
 .footer-container {
-    background-image: linear-gradient(#5F7161, #C8C6C6, #5F7161);
+    background-image: linear-gradient(#464F41, #C8C6C6, #464F41);
     color: black;
     font-size: 1.5rem;
     font-weight: bold;
@@ -141,6 +141,10 @@ h1 {
     width: 20%;
 }
 
+.copyright {
+    font-size: 1.5rem;
+}
+
 
 
 
@@ -153,12 +157,14 @@ h1 {
 
     .profile-image {
         margin-left: 2%;
+        margin-right: 2%;
         margin-top: 5%;
         width: 40%;
     }
 
     .h1-profile {
         font-size: 5rem;
+        margin-left: 1%;
     }
 
     .h1-preview {
@@ -168,7 +174,12 @@ h1 {
     .text-profile {
         font-size: 3rem;
         line-height: 1.5;
-        margin-right: 3%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .skills-container {
+        padding-bottom: 10%;
     }
 
     .btn {
@@ -188,11 +199,19 @@ h1 {
 
     .logo-heading {
         font-size: 4rem;
+        margin-left: 1%;
     }
 
     .logo-text {
         font-size: 3rem;
         line-height: 1.5;
+        margin-bottom: 10%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .copyright {
+        font-size: 2rem;
     }
 
 }
