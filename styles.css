@@ -5,6 +5,21 @@ body {
     text-shadow: 0px 0px 6px #C8C6C6;
 }
 
+#cover {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#profile {
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
 .body {
     background-image: url(images/background\ image.png);
     padding-bottom: 10%;
@@ -97,7 +112,7 @@ h1 {
 }
 
 .footer-container {
-    background-image: linear-gradient(#435B66, #C8C6C6, #435B66);
+    background-image: linear-gradient(#5F7161, #C8C6C6, #5F7161);
     color: black;
     font-size: 1.5rem;
     font-weight: bold;
@@ -169,6 +184,15 @@ h1 {
     .logo-instagram {
         width: 20%;
         margin-top: 1.8%;
+    }
+
+    .logo-heading {
+        font-size: 4rem;
+    }
+
+    .logo-text {
+        font-size: 3rem;
+        line-height: 1.5;
     }
 
 }
