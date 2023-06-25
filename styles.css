@@ -92,11 +92,14 @@ h1 {
 
 .logo-left {
     float: left;
+    margin: 0 3%;
+    width: 15%;
 }
 
 .logo-right {
     float: right;
     margin: 0 3%;
+    width: 15%;
 }
 
 .logo-heading {
@@ -180,6 +183,14 @@ h1 {
 
     .skills-container {
         padding-bottom: 10%;
+    }
+
+    .logo-left {
+        width: 30%;
+    }
+
+    .logo-right {
+        width: 30%;
     }
 
     .btn {
