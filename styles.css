@@ -102,6 +102,18 @@ h1 {
     width: 15%;
 }
 
+.logo-right-enlarge {
+    float: right;
+    margin: 0 3%;
+    width: 20%;
+}
+
+.logo-left-enlarge {
+    float: left;
+    margin: 0 3%;
+    width: 20%;
+}
+
 .logo-heading {
     font-size: 4rem;
     margin-left: 5%;
@@ -189,8 +201,16 @@ h1 {
         width: 30%;
     }
 
+    .logo-left-enlarge {
+        width: 35%;
+    }
+
     .logo-right {
         width: 30%;
+    }
+
+    .logo-right-enlarge {
+        width: 35%;
     }
 
     .btn {
