@@ -33,6 +33,18 @@ body {
     width: 100%;
 }
 
+@media (min-width: 1081px) {
+    .mobile-fixed-background-image {
+    display: none;
+    }
+}
+
+@media (min-width: 1081px) {
+    .mobile-fixed-cover-image {
+    display: none;
+    }
+}
+
 .fixed-cover {
     left: 20%;
     position: fixed;
@@ -44,6 +56,22 @@ body {
 .fixed-cover-image {
     box-shadow: 0px 0px 50px black;
     width: 60%;
+}
+
+.fixed-logo-programming {
+    position: fixed;
+    left: 0.5%;
+    opacity: 0.2;
+    top: 3%;
+    width: 25%;
+}
+
+.fixed-logo-programming-2 {
+    position: fixed;
+    right: 0.5%;
+    opacity: 0.2;
+    top: 15%;
+    width: 30%;
 }
 
 .content {
@@ -85,22 +113,6 @@ body {
 
 span {
     font-weight: bold;
-}
-
-.fixed-logo-programming {
-    position: fixed;
-    left: 0.5%;
-    opacity: 0.2;
-    top: 3%;
-    width: 25%;
-}
-
-.fixed-logo-programming-2 {
-    position: fixed;
-    right: 0.5%;
-    opacity: 0.2;
-    top: 15%;
-    width: 30%;
 }
 
 .skills-container {
@@ -199,83 +211,49 @@ h1 {
 
 @media (max-width: 1080px) {
 
-    .profile-image {
-        margin-left: 2%;
-        margin-right: 2%;
-        margin-top: 5%;
-        width: 40%;
+    body {
+        color: black;
+        text-shadow: 0px 0px 3px black;
     }
 
-    .h1-profile {
-        font-size: 5rem;
-        margin-left: 1%;
+    .fixed-logo-programming {
+        display: none;
+    }
+    
+    .fixed-logo-programming-2 {
+        display: none;
     }
 
-    .h1-preview {
-        font-size: 6rem;
+    .fixed-background-image {
+        display: none;
     }
 
-    .text-profile {
-        font-size: 3rem;
-        line-height: 1.5;
-        margin-left: 1%;
-        margin-right: 1%;
+    .fixed-cover-image {
+        display: none;
     }
 
-    .skills-container {
-        padding-bottom: 10%;
+    .mobile-fixed-background-image {
+        width: 100%;
     }
 
-    .logo-left {
-        width: 30%;
+    .fixed-cover {
+        left: 0;
     }
 
-    .logo-left-enlarge {
-        width: 40%;
+    .mobile-fixed-cover-image {
+        box-shadow: 0px 0px 80px black;
+        width: 100%;
     }
 
-    .logo-right {
-        width: 30%;
-    }
-
-    .logo-right-enlarge {
-        width: 40%;
-    }
-
-    .btn {
-        font-size: 3rem;
-        margin-left: 30%;
-        width: 40%;
-    }
-
-    .logo-facebook {
-        width: 20%;
-    }
-
-    .logo-instagram {
-        width: 20%;
-        margin-top: 2.6%;
-    }
-
-    .logo-heading {
-        font-size: 4rem;
-        margin-left: 1%;
-    }
-
-    .logo-text {
-        font-size: 3rem;
-        line-height: 1.5;
-        margin-bottom: 10%;
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-
-    .copyright-text {
-        font-size: 2rem;
-    }
-
-    .copyright-h3 {
-        font-size: 3rem;
+    .content {
+        backdrop-filter: blur(8px);
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 0px black;
+        margin: auto;
+        margin-top: 45%;
+        width: 100%;
+        position: relative;
+        z-index: 1;
     }
 
 }
