@@ -1,4 +1,5 @@
 body {
+    background-image: url(images/fixed\ background\ image.jpg);
     color: white;
     font-family: 'Lato', sans-serif;
     margin: auto;
@@ -7,12 +8,12 @@ body {
 
 #cover {
     opacity: 0;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 5s ease-in-out;
 }
 
 #profile {
     opacity: 0;
-    transition: opacity 4s ease-in-out;
+    transition: opacity 5s ease-in-out;
 }
 
 .fade-in {
@@ -20,113 +21,139 @@ body {
     transition: opacity 3s ease-in-out;
 }
 
-.content {
-    background-image: url(images/background\ image.png);
+.fixed-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
-.cover-image {
-    box-shadow: 0px 0px 100px black;
+.fixed-background-image {
     width: 100%;
 }
 
-.profile {
-    backdrop-filter: blur(6px);
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+.fixed-cover {
+    left: 20%;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 2;
+}
+
+.fixed-cover-image {
+    box-shadow: 0px 0px 50px black;
+    width: 60%;
+}
+
+.content {
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 20px black;
     margin: auto;
-    margin-top: 8%;
-    padding-bottom: 5%;
+    margin-top: 15%;
+    width: 60%;
     position: relative;
-    width: 90%;
+    z-index: 1;
+}
+
+.profile {
+    margin: 3%;
+    padding-top: 3%;
 }
 
 .profile-image {
     border-radius: 300px;
     box-shadow: 0px 0px 30px black;
-    float: right;
-    margin-left: 3%;
-    margin-bottom: 3%;
-    margin-top: 3%;
-    margin-right: 5%;
-    width: 30%;
+    float: left;
+    margin-right: 3%;
+    margin-top: 1%;
+    width: 20%;
 }
 
 .h1-profile {
-    font-size: 5rem;
-    margin-bottom: 0;
-    margin-left: 5%;
-    padding-top: 5%;
+    font-size: 2.5rem;
+    margin-bottom: 1%;
+    margin-top: 3%;
     text-align: left;
 }
 
 .text-profile {
-    font-size: 2rem;
-    line-height: 2;
-    margin: 0 5%;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 span {
     font-weight: bold;
 }
 
+.fixed-logo-programming {
+    position: fixed;
+    left: 0.5%;
+    opacity: 0.2;
+    top: 3%;
+    width: 25%;
+}
+
+.fixed-logo-programming-2 {
+    position: fixed;
+    right: 0.5%;
+    opacity: 0.2;
+    top: 15%;
+    width: 30%;
+}
+
 .skills-container {
-    backdrop-filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px black;
     margin: auto;
-    margin-top: 8%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
     padding-bottom: 5%;
     padding-top: 3%;
     position: relative;
-    width: 90%;
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 4rem;
     margin-bottom: 5%;
     text-align: center;
 }
 
 .logo-left {
     float: left;
-    margin: 0 3%;
-    width: 15%;
+    margin-right: 3%;
+    width: 12%;
 }
 
 .logo-right {
     float: right;
-    margin: 0 3%;
-    width: 15%;
+    width: 12%;
 }
 
 .logo-right-enlarge {
     float: right;
-    margin: 0 3%;
-    width: 20%;
+    width: 18%;
 }
 
 .logo-left-enlarge {
     float: left;
     margin: 0 3%;
-    width: 20%;
+    width: 18%;
 }
 
 .logo-heading {
-    font-size: 4rem;
-    margin-left: 5%;
+    font-size: 2.5rem;
 }
 
 .logo-text {
-    font-size: 2rem;
-    line-height: 2;
-    margin: 0 5%;
+    font-size: 1rem;
+    line-height: 1.5;
     margin-bottom: 5%;
 }
 
 .footer-container {
-    margin-top: 8%;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -138,6 +165,7 @@ h1 {
 
 .copyright-h3 {
     color: white;
+    font-size: 1.2rem;
     margin: 0;
     text-shadow: 0px 0px 6px white;
 }
@@ -145,18 +173,18 @@ h1 {
 .logo-facebook {
     margin-right: 1%;
     margin-top: 1%;
-    width: 10%;
+    width: 6%;
 }
 
 .logo-instagram {
     margin-left: 1%;
-    margin-top: 1.8%;
-    width: 10%;
+    margin-top: 1.45%;
+    width: 6%;
 }
 
 .btn {
     box-shadow: 0px 0px 8px #C8C6C6;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: auto;
     margin-left: 40%;
     width: 20%;
