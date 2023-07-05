@@ -246,14 +246,86 @@ h1 {
     }
 
     .content {
-        backdrop-filter: blur(8px);
         background-color: rgba(0, 0, 0, 0);
         box-shadow: 0px 0px 0px black;
-        margin: auto;
         margin-top: 45%;
         width: 100%;
-        position: relative;
-        z-index: 1;
+    }
+
+    .profile {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .profile-image {
+        float: right;
+        width: 40%;
+    }
+    
+    .h1-profile {
+        font-size: 5rem;
+    }
+    
+    .text-profile {
+        font-size: 3rem;
+    }
+
+    .skills-container {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    h1 {
+        font-size: 6rem;
+        font-weight: bold;
+    }
+    
+    .logo-left {
+        width: 15%;
+    }
+    
+    .logo-right {
+        width: 15%;
+    }
+    
+    .logo-right-enlarge {
+        width: 20%;
+    }
+    
+    .logo-left-enlarge {
+        width: 20%;
+    }
+    
+    .logo-heading {
+        font-size: 4rem;
+    }
+    
+    .logo-text {
+        font-size: 3rem;
+    }
+
+    .copyright-text {
+        font-size: 1.2rem;
+    }
+    
+    .copyright-h3 {
+        font-size: 1.5rem;
+    }
+    
+    .logo-facebook {
+        margin-top: 0%;
+        width: 20%;
+    }
+    
+    .logo-instagram {
+        width: 20%;
+    }
+
+    .btn {
+        font-size: 3rem;
+        margin-left: 30%;
+        margin-top: 5%;
+        width: 40%;
     }
 
 }
