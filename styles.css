@@ -211,10 +211,6 @@ h1 {
 
 @media (max-width: 1080px) {
 
-    body {
-        color: black;
-    }
-
     .fixed-logo-programming {
         display: none;
     }
@@ -276,25 +272,24 @@ h1 {
     }
     
     h1 {
-        color: black;
         font-size: 6rem;
         font-weight: bold;
     }
     
     .logo-left {
-        width: 18%;
+        width: 25%;
     }
     
     .logo-right {
-        width: 18%;
+        width: 25%;
     }
     
     .logo-right-enlarge {
-        width: 24%;
+        width: 30%;
     }
     
     .logo-left-enlarge {
-        width: 24%;
+        width: 30%;
     }
     
     .logo-heading {
