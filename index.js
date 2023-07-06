@@ -15,14 +15,7 @@ $(window).on('load', function() {
 
 
   $(document).ready(function() {
-    $(window).scroll(function() {
-      var scrollPosition = $(this).scrollTop();
-      if (scrollPosition > 0) {
-        $('#downArrows').css('opacity', 0);
-      } else {
-        $('#downArrows').css('opacity', 1);
-      }
-    });
+    $('#downArrows').css('opacity', 1);
   });
 
 
