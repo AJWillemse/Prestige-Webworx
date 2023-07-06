@@ -20,7 +20,7 @@ body {
     opacity: 0;
   }
 
-@keyframes fadeEffect {
+  @keyframes fadeEffect {
     0% { opacity: 0; }
     50% { opacity: 1; }
     100% { opacity: 0; }
@@ -319,6 +319,7 @@ h1 {
     .logo-heading {
         font-size: 4rem;
         font-weight: bold;
+        margin-bottom: 3%;
     }
     
     .logo-text {
@@ -343,7 +344,7 @@ h1 {
     }
 
     .btn {
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin-left: 30%;
         margin-top: 5%;
         width: 40%;
