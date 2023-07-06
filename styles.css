@@ -123,6 +123,7 @@ body {
 }
 
 span {
+    color: lawngreen;
     font-weight: bold;
 }
 
@@ -177,6 +178,10 @@ h1 {
     font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: 15%;
+}
+
+.photography-link {
+    color: lawngreen;
 }
 
 .footer-container {
