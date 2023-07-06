@@ -15,6 +15,17 @@ body {
     transition: opacity 5s ease-in-out;
 }
 
+#downArrows {
+    animation: fadeEffect 3s infinite;
+    opacity: 0;
+  }
+
+@keyframes fadeEffect {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
 .fade-in {
     opacity: 0;
     transition: opacity 3s ease-in-out;
@@ -115,10 +126,15 @@ span {
     font-weight: bold;
 }
 
+.down-arrows {
+    margin-left: 85%;
+    margin-top: 5%;
+    width: 8%;
+}
+
 .skills-container {
     margin: auto;
     margin-left: 5%;
-    margin-top: 5%;
     margin-right: 5%;
     padding-bottom: 5%;
     padding-top: 3%;
@@ -265,6 +281,13 @@ h1 {
     
     .text-profile {
         font-size: 3.5rem;
+    }
+
+    .down-arrows {
+        margin-left: 75%;
+        margin-top: 0;
+        rotate: 180deg;
+        width: 15%;
     }
 
     .skills-container {

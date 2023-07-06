@@ -1,14 +1,21 @@
-window.addEventListener('load', function() {
-    var image = document.getElementById('cover');
-    image.style.opacity = 1;
+$(window).on('load', function() {
+  var image = $('#cover');
+  image.css('opacity', 1);
+});
+
+
+
+
+  $(window).on('load', function() {
+    var image = $('#profile');
+    image.css('opacity', 1);
   });
 
 
 
 
-  window.addEventListener('load', function() {
-    var image = document.getElementById('profile');
-    image.style.opacity = 1;
+  $(document).ready(function() {
+    $('#downArrows').css('opacity', 1);
   });
 
 
@@ -17,8 +24,8 @@ window.addEventListener('load', function() {
 
   function isElementPartiallyInViewport(element) {
     var rect = element.getBoundingClientRect();
-    var windowHeight = window.innerHeight || document.documentElement.clientHeight;
-    var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+    var windowHeight = $(window).height();
+    var windowWidth = $(window).width();
   
     var isTopVisible = rect.top < windowHeight && rect.bottom >= 0;
     var isLeftVisible = rect.left < windowWidth && rect.right >= 0;
@@ -27,18 +34,18 @@ window.addEventListener('load', function() {
   }
   
   function handleScroll() {
-    var fadeIns = document.getElementsByClassName('fade-in');
+    var fadeIns = $('.fade-in');
   
-    for (var i = 0; i < fadeIns.length; i++) {
-      var div = fadeIns[i];
+    fadeIns.each(function(index, element) {
+      var div = $(element);
   
-      if (isElementPartiallyInViewport(div)) {
-        div.style.opacity = '1';
+      if (isElementPartiallyInViewport(element)) {
+        div.css('opacity', '1');
       } else {
-        div.style.opacity = '0';
+        div.css('opacity', '0');
       }
-    }
+    });
   }
   
-  window.addEventListener('scroll', handleScroll);
-  window.addEventListener('resize', handleScroll);
+  $(window).on('scroll', handleScroll);
+  $(window).on('resize', handleScroll);
