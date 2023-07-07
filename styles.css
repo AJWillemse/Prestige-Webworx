@@ -2,7 +2,6 @@ body {
     color: white;
     font-family: 'Lato', sans-serif;
     margin: auto;
-    text-shadow: 0px 0px 6px #C8C6C6;
 }
 
 #cover {
@@ -194,13 +193,11 @@ h1 {
 .copyright-text {
     color: lawngreen;
     margin: 0;
-    text-shadow: 0px 0px 0px;
 }
 
 .copyright-h5 {
     color: lawngreen;
     margin: 0;
-    text-shadow: 0px 0px 0px;
 }
 
 .logo-facebook {
@@ -222,7 +219,6 @@ h1 {
     font-weight: bold;
     margin: auto;
     margin-left: 40%;
-    text-shadow: 0px 0px 0px;
     width: 20%;
 }
 
