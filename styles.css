@@ -255,7 +255,7 @@ h1 {
 
 
 
-@media (max-width: 1080px) {
+@media only screen and (max-device-width: 1080px) {
 
     .fixed-logo-programming {
         display: none;
@@ -326,7 +326,7 @@ h1 {
     }
     
     h1 {
-        font-size: 7rem;
+        font-size: 2.5rem;
         font-weight: bold;
         margin-bottom: 10%;
     }
@@ -354,15 +354,15 @@ h1 {
     }
     
     .logo-text {
-        font-size: 3.5rem;
+        font-size: 1.2rem;
     }
 
     .copyright-text {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     .copyright-h5 {
-        font-size: 2.5rem;
+        font-size: 1.2rem;
     }
     
     .logo-facebook {
@@ -375,9 +375,9 @@ h1 {
     }
 
     .btn {
-        font-size: 3rem;
+        font-size: 1.5rem;
         margin-left: 30%;
-        width: 40%;
+        width: 45%;
     }
 
 }
