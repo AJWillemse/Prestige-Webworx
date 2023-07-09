@@ -274,11 +274,13 @@ h1 {
     }
 
     .mobile-fixed-background-image {
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
     }
 
     .fixed-cover {
         left: 0;
+        width: 100vw;
     }
 
     .mobile-fixed-cover-image {
