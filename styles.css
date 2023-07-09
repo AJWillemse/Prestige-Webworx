@@ -274,7 +274,7 @@ h1 {
     }
 
     .mobile-fixed-background-image {
-        width: 100vw;
+        width: 100%;
     }
 
     .fixed-cover {
