@@ -69,22 +69,6 @@ body {
     width: 100%;
 }
 
-.fixed-logo-programming {
-    position: fixed;
-    left: 0.5%;
-    opacity: 0.1;
-    top: 3%;
-    width: 25%;
-}
-
-.fixed-logo-programming-2 {
-    position: fixed;
-    right: 0.5%;
-    opacity: 0.1;
-    top: 15%;
-    width: 30%;
-}
-
 .content {
     backdrop-filter: blur(4px);
     background-color: rgba(0, 0, 0, 0.2);
@@ -257,14 +241,6 @@ h1 {
 
 
 @media only screen and (max-device-width: 1080px) {
-
-    .fixed-logo-programming {
-        display: none;
-    }
-    
-    .fixed-logo-programming-2 {
-        display: none;
-    }
 
     .fixed-background-image {
         display: none;
